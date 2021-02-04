@@ -10,7 +10,6 @@ def playMove(state, player, move):
         playMove(state, player, move)
     
 def checkState(gameState):
-    
     #Horizontal Check
     for i in range(3):
         if gameState[i][0] == gameState[i][1] and gameState[i][0] == gameState[i][2] and gameState[i][0] != ' ':
